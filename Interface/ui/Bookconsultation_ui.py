@@ -1,18 +1,26 @@
-from PyQt5.QtWidgets import (QMainWindow, QPushButton, QStackedWidget, QLineEdit, 
+from PyQt5.QtWidgets import (QMainWindow, QPushButton, QStackedWidget, QLineEdit,
                              QComboBox, QSpinBox, QRadioButton, QLabel, QTableWidget,
-                             QTableWidgetItem, QHeaderView, QWidget, QVBoxLayout, 
-                             QHBoxLayout, QGridLayout, QGroupBox)
+                             QTableWidgetItem, QHeaderView, QWidget, QVBoxLayout,
+                             QHBoxLayout, QGridLayout, QGroupBox, QApplication, QMessageBox)
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt
+import sys
+from Interface.modules.Bookconsultation import NutritionKioskLogic
+
+sys.path.append('c:/Users/soura/WATT/python/Dr-Bharti-KIOSK/Interface')
+
 
 class NutritionKioskUI(QMainWindow):
-    def __init__(self):
-        super().__init__()
-        self.setWindowTitle("Nutrition Consultation Kiosk")
-        self.setGeometry(100, 100, 800, 600)
-        
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.logic = NutritionKioskLogic()  # Create an instance of the logic class
+        self.selected_doctor = None  # Initialize selected doctor
+
+        self.setupUi()  # Setup the UI by calling setupUi method
+        self.setupUiMainWindow()  # Set up additional main window elements
+
         # Main Layout
-        self.central_widget = QWidget()
+        self.central_widget = QWidget()  # Ensure this is created properly
         self.setCentralWidget(self.central_widget)
         main_layout = QVBoxLayout(self.central_widget)
 
@@ -28,8 +36,27 @@ class NutritionKioskUI(QMainWindow):
         self.doctor_selection_screen = self.create_doctor_selection_screen()
         self.stack.addWidget(self.doctor_selection_screen)
 
+        # Create Confirmation Screen
+        self.confirmation_screen = self.create_confirmation_screen()
+        self.stack.addWidget(self.confirmation_screen)
+
+    def setupUiMainWindow(self):
+        """Set up the main window title and geometry."""
+        self.setWindowTitle("Nutrition Kiosk")
+        self.setGeometry(100, 100, 800, 600)
+
+    def setupUi(self):
+        """Set up the main UI structure."""
+        self.setWindowTitle("Nutrition Kiosk")
+        self.setGeometry(100, 100, 800, 600)
+
+        # Central Widget and Layout
+        self.central_widget = QWidget()  # This ensures QWidget is created correctly
+        self.setCentralWidget(self.central_widget)  # Make sure it's set as the central widget
+        main_layout = QVBoxLayout(self.central_widget)
+
     def create_patient_info_screen(self):
-        """Creates the patient information input screen."""
+        """Creates the patient information screen."""
         screen = QWidget()
         layout = QVBoxLayout(screen)
 
@@ -92,11 +119,19 @@ class NutritionKioskUI(QMainWindow):
         layout.addLayout(form_layout)
 
         # Continue Button
-        self.continue_button = QPushButton("Continue to Doctor Selection")
-        self.continue_button.setStyleSheet("background-color: #007BFF; color: white; padding: 10px; font-weight: bold;")
-        layout.addWidget(self.continue_button)
+        continue_button = QPushButton("Continue to Doctor Selection")
+        continue_button.setStyleSheet("background-color: #007BFF; color: white; padding: 10px; font-weight: bold;")
+        continue_button.clicked.connect(self.go_to_doctor_selection)
+        layout.addWidget(continue_button)
+
+        # Back to Kiosk Button (Below Continue Button)
+        back_to_kiosk_button = QPushButton("Back to Kiosk")
+        back_to_kiosk_button.setStyleSheet("background-color: #6c757d; color: white; padding: 10px; font-weight: bold;")
+        back_to_kiosk_button.clicked.connect(self.reset_kiosk)  # Ensure the button resets the kiosk correctly
+        layout.addWidget(back_to_kiosk_button)
 
         return screen
+
 
     def create_doctor_selection_screen(self):
         """Creates the doctor selection screen."""
@@ -119,6 +154,9 @@ class NutritionKioskUI(QMainWindow):
         self.doctor_table.setHorizontalHeaderLabels(["Doctor ID", "Name", "Consultation Hours"])
         self.doctor_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
 
+        # Detect a row click
+        self.doctor_table.cellClicked.connect(self.select_doctor)
+
         # Add doctor data
         doctors = [
             ("D001", "Dr. Smith", "09:00 - 17:00"),
@@ -136,14 +174,102 @@ class NutritionKioskUI(QMainWindow):
         # Navigation Buttons
         button_layout = QHBoxLayout()
 
-        self.back_button = QPushButton("Back")
-        self.back_button.setStyleSheet("background-color: #007BFF; color: white; padding: 10px; font-weight: bold;")
-        button_layout.addWidget(self.back_button)
+        back_button = QPushButton("Back")
+        back_button.setStyleSheet("background-color: #007BFF; color: white; padding: 10px; font-weight: bold;")
+        back_button.clicked.connect(self.go_to_patient_info)
+        button_layout.addWidget(back_button)
 
-        self.continue_button_doctor = QPushButton("Continue")
-        self.continue_button_doctor.setStyleSheet("background-color: #007BFF; color: white; padding: 10px; font-weight: bold;")
-        button_layout.addWidget(self.continue_button_doctor)
+        continue_button = QPushButton("Continue")
+        continue_button.setStyleSheet("background-color: #007BFF; color: white; padding: 10px; font-weight: bold;")
+        continue_button.clicked.connect(self.save_patient_data)
+        button_layout.addWidget(continue_button)
 
         layout.addLayout(button_layout)
 
         return screen
+
+    def create_confirmation_screen(self):
+        """Creates the confirmation screen."""
+        screen = QWidget()
+        layout = QVBoxLayout(screen)
+
+        # Title Label
+        title_label = QLabel("Appointment Confirmation")
+        title_label.setFont(QFont("Arial", 14, QFont.Bold))
+        title_label.setAlignment(Qt.AlignCenter)
+        layout.addWidget(title_label)
+
+        # Confirmation Details
+        self.confirmation_details = QLabel()
+        self.confirmation_details.setAlignment(Qt.AlignCenter)
+        layout.addWidget(self.confirmation_details)
+
+        # Done Button
+        done_button = QPushButton("Done")
+        done_button.setStyleSheet("background-color: #007BFF; color: white; padding: 10px; font-weight: bold;")
+        done_button.clicked.connect(self.reset_kiosk)
+        layout.addWidget(done_button)
+
+        return screen
+
+    def save_patient_data(self):
+        """Saves patient data using logic from NutritionKioskLogic."""
+        name = self.name_input.text()
+        phone = self.phone_input.text()
+        age = self.age_input.value()
+        gender = "Male" if self.male_radio.isChecked() else "Female" if self.female_radio.isChecked() else "Other"
+        is_child = "Yes" if self.yes_child_radio.isChecked() else "No"
+        nutrition_concern = self.problem_combo.currentText()
+
+        # Validate patient info
+        valid, message = self.logic.validate_patient_info(name, phone, age)
+        if not valid:
+            QMessageBox.warning(self, "Validation Error", message)
+            return
+        
+        # Save patient data
+        patient_data = self.logic.save_patient_data(name, phone, age, gender, is_child, nutrition_concern, self.selected_doctor)
+
+        # Update confirmation details
+        confirmation_text = self.logic.generate_confirmation_text(patient_data)
+        self.confirmation_details.setText(confirmation_text)
+
+        # Switch to confirmation screen
+        self.stack.setCurrentWidget(self.confirmation_screen)
+
+    def select_doctor(self, row, column):
+        """Updates the selected doctor based on the row clicked in the table."""
+        doctor_id = self.doctor_table.item(row, 0).text()
+        doctor_name = self.doctor_table.item(row, 1).text()
+        self.selected_doctor = (doctor_id, doctor_name)
+
+
+    def go_to_patient_info(self):
+        """Switches to the patient information screen."""
+        self.stack.setCurrentWidget(self.patient_info_screen)
+
+    def go_to_doctor_selection(self):
+        """Switches to the doctor selection screen."""
+        self.stack.setCurrentWidget(self.doctor_selection_screen)
+
+    def reset_kiosk(self):
+        """Resets the kiosk and clears data."""
+        self.name_input.clear()
+        self.phone_input.clear()
+        self.age_input.setValue(1)  # Reset the age input to its minimum value
+        self.male_radio.setChecked(False)
+        self.female_radio.setChecked(False)
+        self.other_radio.setChecked(False)
+        self.yes_child_radio.setChecked(False)
+        self.no_child_radio.setChecked(False)
+        self.problem_combo.setCurrentIndex(0)
+
+        self.stack.setCurrentWidget(self.patient_info_screen)  # Reset the screen back to patient info
+
+
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    window = NutritionKioskUI()
+    window.show()
+    sys.exit(app.exec_())
