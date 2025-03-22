@@ -1,0 +1,1082 @@
+{
+  "name": "i_phone_16_plus_18",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "7OACmgs9OjbxPA9U14N11O",
+    "node": "2006:247",
+    "version": "2197647281730955356",
+    "component-id": "157b749087e0c3d10c398037e732b84d0f40d3f6"
+  },
+  "default": "iPhone 16 Plus - 18",
+  "documentation": "Sign in",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "🦆 icon \"arrow circle right\""
+      },
+      {
+        "type": "group",
+        "id": "status bar"
+      },
+      {
+        "type": "text",
+        "id": "Sign In"
+      },
+      {
+        "type": "group",
+        "id": "Frame 126"
+      },
+      {
+        "type": "text",
+        "id": "Email"
+      },
+      {
+        "type": "group",
+        "id": "Group 7"
+      },
+      {
+        "type": "group",
+        "id": "Frame 98"
+      },
+      {
+        "type": "group",
+        "id": "Frame 99"
+      },
+      {
+        "type": "text",
+        "id": "or sign in with"
+      },
+      {
+        "type": "vector",
+        "id": "Line 14"
+      },
+      {
+        "type": "vector",
+        "id": "Line 15"
+      },
+      {
+        "type": "text",
+        "id": "Forgot Password?"
+      },
+      {
+        "type": "text",
+        "id": "Don’t have an account? Register"
+      },
+      {
+        "type": "image",
+        "id": "image 15"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "text",
+        "id": "8:30"
+      },
+      {
+        "type": "group",
+        "id": "status right"
+      },
+      {
+        "type": "group",
+        "id": "wifi icon"
+      },
+      {
+        "type": "group",
+        "id": "cellular"
+      },
+      {
+        "type": "group",
+        "id": "battery"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector3"
+      },
+      {
+        "type": "text",
+        "id": "Password"
+      },
+      {
+        "type": "group",
+        "id": "Group 8"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 40"
+      },
+      {
+        "type": "text",
+        "id": "Enter your Password"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 41"
+      },
+      {
+        "type": "text",
+        "id": "Enter your Email"
+      },
+      {
+        "type": "text",
+        "id": "Login"
+      },
+      {
+        "type": "image",
+        "id": "image 7"
+      },
+      {
+        "type": "text",
+        "id": "Sign in with Google"
+      }
+    ],
+    "modes": {
+      "iPhone 16 Plus - 18": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": 40.0,
+            "is-structured": false,
+            "children": [
+              "🦆 icon \"arrow circle right\"",
+              "status bar",
+              "Sign In",
+              "Frame 126",
+              "Email",
+              "Group 7",
+              "Frame 98",
+              "Frame 99",
+              "or sign in with",
+              "Line 14",
+              "Line 15",
+              "Forgot Password?",
+              "Don’t have an account? Register",
+              "image 15"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "🦆 icon \"arrow circle right\"",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 304.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 875.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 43.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 43.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "status bar",
+            "padding": {
+              "left": 20.0,
+              "right": 20.0
+            },
+            "border-radius": 34.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 223.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "cross-axis-align": "start",
+            "children": [
+              "8:30",
+              "status right"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Sign In",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 21.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 367.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 270.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 29.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.1450980392156863
+            },
+            "text-content": "Sign In",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 32.0,
+            "line-height": 0.5,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Frame 126",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 21.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 517.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 386.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Password",
+              "Group 8"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "Email",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 21.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 416.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 362.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.30196078431372547
+            },
+            "text-content": "Email",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.0666666412353516,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Group 7",
+            "border-radius": 26.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 21.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 441.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 386.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 56.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 41",
+              "Enter your Email"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Frame 98",
+            "padding": {
+              "top": 13.0,
+              "bottom": 13.0
+            },
+            "border-radius": 77.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 21.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 646.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 382.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 56.0
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Login"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Frame 99",
+            "padding": {
+              "top": 13.0,
+              "bottom": 13.0
+            },
+            "border-radius": 77.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 21.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 760.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 382.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 56.0
+              }
+            },
+            "stroke-width": 1.0,
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.8549019607843137
+            },
+            "arrangement": "row",
+            "children": [
+              "image 7",
+              "Sign in with Google"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "or sign in with",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": -0.5
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 722.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 429.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.6274509803921569
+            },
+            "text-content": "or sign in with",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Line 14",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 24.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 730.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 131.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            },
+            "vector-content": "line_14.svg"
+          },
+          {
+            "id": "Line 15",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 273.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 730.0000057261918
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 131.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            },
+            "vector-content": "line_15.svg"
+          },
+          {
+            "id": "Forgot Password?",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 279.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 613.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 124.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.6274509803921569
+            },
+            "text-content": "Forgot Password?",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "right",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Don’t have an account? Register",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 831.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 26.0
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.6274509803921569
+            },
+            "annotated-text-content": {
+              "text": "Don’t have an account? Register",
+              "annotated-text-span-list": [
+                {
+                  "span-start": 0,
+                  "span-length": 23
+                },
+                {
+                  "span-start": 23,
+                  "span-length": 8,
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": 1.0,
+                      "hue": 213.30143540669854,
+                      "saturation": 0.9330357142857143,
+                      "value": 0.8784313725490196
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "image 15",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 35.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 481.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 290.0
+              }
+            },
+            "image-content": "image_15.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "8:30",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 39.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "8:30",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "bottom",
+            "text-size": 15.0,
+            "line-height": 0.8666666412353515,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "status right",
+            "padding": {
+              "left": 26.0,
+              "top": 10.0,
+              "right": 10.0,
+              "bottom": 2.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 78.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "wifi icon",
+              "cellular",
+              "battery"
+            ],
+            "item-spacing": 2.0,
+            "clip-content": false
+          },
+          {
+            "id": "wifi icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "cellular",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector2"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "battery",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector3"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Vector1",
+            "margin": {
+              "top": 6.0,
+              "right": 1.387502670288086
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "Vector2",
+            "margin": {
+              "left": 3.0,
+              "top": 6.0,
+              "right": 2.9999990463256836
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Vector3",
+            "margin": {
+              "left": 6.0,
+              "top": 6.0,
+              "right": 5.999999523162842
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "id": "Password",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.30196078431372547
+            },
+            "text-content": "Password",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.0666666412353516,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Group 8",
+            "border-radius": 26.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 386.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 56.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 40",
+              "Enter your Password"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 40",
+            "border-radius": 26.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": -2.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 382.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 56.0
+              }
+            },
+            "vector-content": "rectangle_40.svg"
+          },
+          {
+            "id": "Enter your Password",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 24.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 20.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 362.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.5686274509803921
+            },
+            "text-content": "Enter your Password",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.0666666412353516,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 41",
+            "border-radius": 26.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": -2.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 382.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 56.0
+              }
+            },
+            "vector-content": "rectangle_41.svg"
+          },
+          {
+            "id": "Enter your Email",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 24.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 20.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 362.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.5686274509803921
+            },
+            "text-content": "Enter your Email",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.0666666412353516,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Login",
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Login",
+            "overflow": "visible",
+            "text-size": 16.0,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "image 7",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "image-content": "image_7.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Sign in with Google",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 146.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.3058823529411765
+            },
+            "text-content": "Sign in with Google",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.0666666412353516,
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "iPhone 16 Plus - 18",
+      "size": {
+        "width": 430.0,
+        "height": 932.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

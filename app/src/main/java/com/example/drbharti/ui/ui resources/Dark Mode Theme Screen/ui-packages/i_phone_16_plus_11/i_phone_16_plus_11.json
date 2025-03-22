@@ -1,0 +1,520 @@
+{
+  "name": "i_phone_16_plus_11",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "7OACmgs9OjbxPA9U14N11O",
+    "node": "2006:240",
+    "version": "2197654239060845277",
+    "component-id": "ff4d97d372b492cd47edebc49bb6c7db04bfe34e"
+  },
+  "default": "iPhone 16 Plus - 11",
+  "documentation": "Dark mode Theme",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Eat better, live healthier your nutrition, your way."
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1"
+      },
+      {
+        "type": "group",
+        "id": "🦆 icon \"arrow circle right\""
+      },
+      {
+        "type": "group",
+        "id": "status bar"
+      },
+      {
+        "type": "text",
+        "id": "Get started"
+      },
+      {
+        "type": "image",
+        "id": "image 8"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "text",
+        "id": "8:30"
+      },
+      {
+        "type": "group",
+        "id": "status right"
+      },
+      {
+        "type": "group",
+        "id": "wifi icon"
+      },
+      {
+        "type": "group",
+        "id": "cellular"
+      },
+      {
+        "type": "group",
+        "id": "battery"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector3"
+      }
+    ],
+    "modes": {
+      "iPhone 16 Plus - 11": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": 40.0,
+            "is-structured": false,
+            "children": [
+              "Eat better, live healthier your nutrition, your way.",
+              "Rectangle 1",
+              "🦆 icon \"arrow circle right\"",
+              "status bar",
+              "Get started",
+              "image 8"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.0
+            }
+          },
+          {
+            "id": "Eat better, live healthier your nutrition, your way.",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 36.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 77.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 615.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "annotated-text-content": {
+              "text": "\n\n\n\n\nEat better,\n\n\n\n\nlive healthier \n\n\n\nyour nutrition,\n\n\n\nyour way.\n\n\n\n\n\n\n\n\n\n",
+              "annotated-text-span-list": [
+                {
+                  "span-start": 0,
+                  "span-length": 26
+                },
+                {
+                  "span-start": 26,
+                  "span-length": 9,
+                  "annotated-text-style": {
+                    "color": {
+                      "alpha": 1.0,
+                      "hue": 62.84023668639053,
+                      "saturation": 0.7041666666666666,
+                      "value": 0.9411764705882353
+                    }
+                  }
+                },
+                {
+                  "span-start": 35,
+                  "span-length": 2
+                },
+                {
+                  "span-start": 37,
+                  "span-length": 3,
+                  "annotated-text-style": {
+                    "text-size": 29.0
+                  }
+                },
+                {
+                  "span-start": 40,
+                  "span-length": 29,
+                  "annotated-text-style": {
+                    "text-size": 36.0
+                  }
+                },
+                {
+                  "span-start": 69,
+                  "span-length": 9
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-align-vertical": "bottom",
+            "text-size": 49.0,
+            "line-height": 0.2653061294555664,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 1",
+            "border-radius": 71.0,
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.20784313725490197,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 1.0
+              },
+              "blur": 9.0,
+              "offset-x": 1.0,
+              "offset-y": 1.0,
+              "spread": 5.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 23.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 374.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 303.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 50.0
+              }
+            },
+            "vector-content": "rectangle_1.svg"
+          },
+          {
+            "id": "🦆 icon \"arrow circle right\"",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 292.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 390.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 43.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 43.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "status bar",
+            "padding": {
+              "left": 20.0,
+              "right": 20.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "8:30",
+              "status right"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Get started",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 59.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 405.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 128.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "Get started",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-align-vertical": "bottom",
+            "text-size": 16.0,
+            "line-height": 0.8125,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "image 8",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 519.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 690.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 460.0
+              }
+            },
+            "image-content": "image_8.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "8:30",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 39.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "text-content": "8:30",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "bottom",
+            "text-size": 15.0,
+            "line-height": 0.8666666412353515,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "status right",
+            "padding": {
+              "left": 26.0,
+              "top": 10.0,
+              "right": 10.0,
+              "bottom": 2.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 78.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "wifi icon",
+              "cellular",
+              "battery"
+            ],
+            "item-spacing": 2.0,
+            "clip-content": false
+          },
+          {
+            "id": "wifi icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "cellular",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector2"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "battery",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector3"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Vector1",
+            "margin": {
+              "top": 6.0,
+              "right": 1.387502670288086
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "Vector2",
+            "margin": {
+              "left": 3.0,
+              "top": 6.0,
+              "right": 2.9999990463256836
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Vector3",
+            "margin": {
+              "left": 6.0,
+              "top": 6.0,
+              "right": 5.999999523162842
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector3.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "iPhone 16 Plus - 11",
+      "size": {
+        "width": 430.0,
+        "height": 932.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

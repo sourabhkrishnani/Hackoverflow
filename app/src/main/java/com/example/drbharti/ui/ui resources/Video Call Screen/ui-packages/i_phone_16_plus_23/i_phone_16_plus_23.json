@@ -1,0 +1,1111 @@
+{
+  "name": "i_phone_16_plus_23",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "7OACmgs9OjbxPA9U14N11O",
+    "node": "2006:246",
+    "version": "2197650524441216486",
+    "component-id": "ab706f92c9986be989398cf0f52b020d5b0f91e1"
+  },
+  "default": "iPhone 16 Plus - 23",
+  "documentation": "Video Call Screen",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "🦆 icon \"arrow circle right\""
+      },
+      {
+        "type": "group",
+        "id": "status bar"
+      },
+      {
+        "type": "image",
+        "id": "image"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 46"
+      },
+      {
+        "type": "text",
+        "id": "Dr. abc Sharma"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 47"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 49"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 48"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 50"
+      },
+      {
+        "type": "text",
+        "id": "Video call with a therapist"
+      },
+      {
+        "type": "text",
+        "id": "10:10"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 13"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 11"
+      },
+      {
+        "type": "image",
+        "id": "image 19"
+      },
+      {
+        "type": "group",
+        "id": "arrow_left_alt"
+      },
+      {
+        "type": "group",
+        "id": "volume_off"
+      },
+      {
+        "type": "group",
+        "id": "call"
+      },
+      {
+        "type": "group",
+        "id": "emergency_recording"
+      },
+      {
+        "type": "group",
+        "id": "arrow_back_ios_new"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "text",
+        "id": "8:30"
+      },
+      {
+        "type": "group",
+        "id": "status right"
+      },
+      {
+        "type": "group",
+        "id": "wifi icon"
+      },
+      {
+        "type": "group",
+        "id": "cellular"
+      },
+      {
+        "type": "group",
+        "id": "battery"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector3"
+      },
+      {
+        "type": "vector",
+        "id": "Bounding box"
+      },
+      {
+        "type": "vector",
+        "id": "arrow_left_alt1"
+      },
+      {
+        "type": "vector",
+        "id": "Bounding box1"
+      },
+      {
+        "type": "vector",
+        "id": "volume_off1"
+      },
+      {
+        "type": "vector",
+        "id": "Bounding box2"
+      },
+      {
+        "type": "vector",
+        "id": "call1"
+      },
+      {
+        "type": "vector",
+        "id": "Bounding box3"
+      },
+      {
+        "type": "vector",
+        "id": "emergency_recording1"
+      },
+      {
+        "type": "vector",
+        "id": "Bounding box4"
+      },
+      {
+        "type": "vector",
+        "id": "arrow_back_ios_new1"
+      }
+    ],
+    "modes": {
+      "iPhone 16 Plus - 23": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": 40.0,
+            "is-structured": false,
+            "children": [
+              "🦆 icon \"arrow circle right\"",
+              "status bar",
+              "image",
+              "Rectangle 46",
+              "Dr. abc Sharma",
+              "Rectangle 47",
+              "Rectangle 49",
+              "Rectangle 48",
+              "Rectangle 50",
+              "Video call with a therapist",
+              "10:10",
+              "Ellipse 13",
+              "Ellipse 11",
+              "image 19",
+              "arrow_left_alt",
+              "volume_off",
+              "call",
+              "emergency_recording",
+              "arrow_back_ios_new"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "🦆 icon \"arrow circle right\"",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 304.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 875.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 43.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 43.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "status bar",
+            "padding": {
+              "left": 20.0,
+              "right": 20.0
+            },
+            "border-radius": 34.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1065.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "cross-axis-align": "start",
+            "children": [
+              "8:30",
+              "status right"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            },
+            "clip-content": false
+          },
+          {
+            "id": "image",
+            "border-radius": 47.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 257.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 675.0
+              }
+            },
+            "image-content": "image.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 46",
+            "border-radius": 20.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 26.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 801.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 373.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 117.0
+              }
+            },
+            "vector-content": "rectangle_46.svg"
+          },
+          {
+            "id": "Dr. abc Sharma",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 16.056022439744538
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 161.3736031568562
+              }
+            },
+            "relative-transform": [
+              [
+                0.999992311000824,
+                0.003914245869964361,
+                0.0
+              ],
+              [
+                -0.003914245869964361,
+                0.999992311000824,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 190.95472717285156
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 29.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Dr. abc   Sharma",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 20.0,
+            "line-height": 0.8,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 47",
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 49.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 871.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 73.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              }
+            },
+            "vector-content": "rectangle_47.svg"
+          },
+          {
+            "id": "Rectangle 49",
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 13.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 206.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 73.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              }
+            },
+            "vector-content": "rectangle_49.svg"
+          },
+          {
+            "id": "Rectangle 48",
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 176.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 871.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 73.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              }
+            },
+            "vector-content": "rectangle_48.svg"
+          },
+          {
+            "id": "Rectangle 50",
+            "border-radius": 25.0,
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 4.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 300.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 871.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 73.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              }
+            },
+            "vector-content": "rectangle_50.svg"
+          },
+          {
+            "id": "Video call with a therapist",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 43.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 814.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 219.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 27.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Video call\nwith a therapist",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 17.0,
+            "line-height": 1.1176470947265624,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "10:10",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 40.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 215.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 50.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 27.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "10:10",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 17.0,
+            "line-height": 1.1176470947265624,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Ellipse 13",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 16.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 56.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 64.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 65.0
+              }
+            },
+            "vector-content": "ellipse_13.svg"
+          },
+          {
+            "id": "Ellipse 11",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 28.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 222.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 5.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 5.0
+              }
+            },
+            "vector-content": "ellipse_11.svg"
+          },
+          {
+            "id": "image 19",
+            "border-radius": 21.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 257.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 121.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 156.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 239.0
+              }
+            },
+            "image-content": "image_19.png",
+            "scale": "fill"
+          },
+          {
+            "id": "arrow_left_alt",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 16.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 11.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Bounding box",
+              "arrow_left_alt1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "volume_off",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 73.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 876.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Bounding box1",
+              "volume_off1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "call",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 203.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 876.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Bounding box2",
+              "call1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "emergency_recording",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 329.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 877.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Bounding box3",
+              "emergency_recording1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "arrow_back_ios_new",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 33.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 78.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Bounding box4",
+              "arrow_back_ios_new1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "8:30",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 39.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "8:30",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "bottom",
+            "text-size": 15.0,
+            "line-height": 0.8666666412353515,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "status right",
+            "padding": {
+              "left": 26.0,
+              "top": 10.0,
+              "right": 10.0,
+              "bottom": 2.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 78.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "wifi icon",
+              "cellular",
+              "battery"
+            ],
+            "item-spacing": 2.0,
+            "clip-content": false
+          },
+          {
+            "id": "wifi icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "cellular",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector2"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "battery",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector3"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Vector1",
+            "margin": {
+              "top": 6.0,
+              "right": 1.387502670288086
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "Vector2",
+            "margin": {
+              "left": 3.0,
+              "top": 6.0,
+              "right": 2.9999990463256836
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Vector3",
+            "margin": {
+              "left": 6.0,
+              "top": 6.0,
+              "right": 5.999999523162842
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "id": "Bounding box"
+          },
+          {
+            "id": "arrow_left_alt1",
+            "margin": {
+              "left": 8.0,
+              "top": 12.0,
+              "right": 8.0,
+              "bottom": 12.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "arrow_left_alt.svg"
+          },
+          {
+            "id": "Bounding box1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "id": "volume_off1",
+            "margin": {
+              "left": 1.39990234375,
+              "top": 2.800048828125,
+              "right": 2.8000965118408203,
+              "bottom": 1.3999500274658203
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "volume_off.svg"
+          },
+          {
+            "id": "Bounding box2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "id": "call1",
+            "margin": 3.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "call.svg"
+          },
+          {
+            "id": "Bounding box3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "id": "emergency_recording1",
+            "margin": {
+              "left": 2.0,
+              "top": 4.0,
+              "right": 2.0,
+              "bottom": 4.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "emergency_recording.svg"
+          },
+          {
+            "id": "Bounding box4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "id": "arrow_back_ios_new1",
+            "margin": {
+              "left": 6.0,
+              "top": 2.0,
+              "right": 6.22499942779541,
+              "bottom": 2.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "arrow_back_ios_new.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "iPhone 16 Plus - 23",
+      "size": {
+        "width": 430.0,
+        "height": 932.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

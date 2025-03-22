@@ -1,0 +1,4339 @@
+{
+  "name": "i_phone_16_plus_21",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "7OACmgs9OjbxPA9U14N11O",
+    "node": "2006:243",
+    "version": "2197648802668745984",
+    "component-id": "8c5ed79d67eda44f18f339c39480ed0895474714"
+  },
+  "default": "iPhone 16 Plus - 21",
+  "documentation": "Home Screen",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Group 22"
+      },
+      {
+        "type": "group",
+        "id": "status bar"
+      },
+      {
+        "type": "group",
+        "id": "header"
+      },
+      {
+        "type": "group",
+        "id": "Waiting-Appointments-Calendar--Streamline-Core.svg"
+      },
+      {
+        "type": "group",
+        "id": "navbar"
+      },
+      {
+        "type": "group",
+        "id": "Group 21"
+      },
+      {
+        "type": "group",
+        "id": "Group 23"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 16"
+      },
+      {
+        "type": "image",
+        "id": "image"
+      },
+      {
+        "type": "text",
+        "id": "Dr. abc sharma"
+      },
+      {
+        "type": "text",
+        "id": "Nutritionist"
+      },
+      {
+        "type": "group",
+        "id": "Frame 12"
+      },
+      {
+        "type": "group",
+        "id": "Frame 14"
+      },
+      {
+        "type": "group",
+        "id": "Frame 6"
+      },
+      {
+        "type": "text",
+        "id": "Book"
+      },
+      {
+        "type": "group",
+        "id": "Frame 8"
+      },
+      {
+        "type": "group",
+        "id": "Frame 9"
+      },
+      {
+        "type": "group",
+        "id": "Frame"
+      },
+      {
+        "type": "text",
+        "id": "23 slots left"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "group",
+        "id": "Frame1"
+      },
+      {
+        "type": "text",
+        "id": "15+ years experience"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "text",
+        "id": "8:30"
+      },
+      {
+        "type": "group",
+        "id": "status right"
+      },
+      {
+        "type": "group",
+        "id": "wifi icon"
+      },
+      {
+        "type": "group",
+        "id": "cellular"
+      },
+      {
+        "type": "group",
+        "id": "battery"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector3"
+      },
+      {
+        "type": "vector",
+        "id": "Vector4"
+      },
+      {
+        "type": "group",
+        "id": "Frame 13"
+      },
+      {
+        "type": "group",
+        "id": "Group 13"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 10"
+      },
+      {
+        "type": "group",
+        "id": "Group 12"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 42"
+      },
+      {
+        "type": "text",
+        "id": "Good Morning,"
+      },
+      {
+        "type": "text",
+        "id": "Bharti!"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 7"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 9"
+      },
+      {
+        "type": "group",
+        "id": "searchicon"
+      },
+      {
+        "type": "group",
+        "id": "notification icon"
+      },
+      {
+        "type": "vector",
+        "id": "Vector5"
+      },
+      {
+        "type": "vector",
+        "id": "Vector6"
+      },
+      {
+        "type": "group",
+        "id": "🦆 icon \"profile major\""
+      },
+      {
+        "type": "vector",
+        "id": "Vector7"
+      },
+      {
+        "type": "group",
+        "id": "nav item"
+      },
+      {
+        "type": "group",
+        "id": "nav item1"
+      },
+      {
+        "type": "group",
+        "id": "nav item2"
+      },
+      {
+        "type": "group",
+        "id": "nav item3"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 43"
+      },
+      {
+        "type": "group",
+        "id": "Frame2"
+      },
+      {
+        "type": "group",
+        "id": "feed icon"
+      },
+      {
+        "type": "text",
+        "id": "Home"
+      },
+      {
+        "type": "vector",
+        "id": "Vector8"
+      },
+      {
+        "type": "group",
+        "id": "event icon"
+      },
+      {
+        "type": "text",
+        "id": "Home1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector9"
+      },
+      {
+        "type": "group",
+        "id": "waiting-appointments-calendar"
+      },
+      {
+        "type": "text",
+        "id": "Appointment"
+      },
+      {
+        "type": "vector",
+        "id": "Subtract"
+      },
+      {
+        "type": "vector",
+        "id": "rectangle 481"
+      },
+      {
+        "type": "vector",
+        "id": "union"
+      },
+      {
+        "type": "group",
+        "id": "Loader-Progress-Bar-Count-25--Streamline-Plump.png"
+      },
+      {
+        "type": "text",
+        "id": "Progress"
+      },
+      {
+        "type": "image",
+        "id": "Loader-Progress-Bar-Count-25--Streamline-Plump.png1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector10"
+      },
+      {
+        "type": "group",
+        "id": "top  part "
+      },
+      {
+        "type": "text",
+        "id": "Top Nutritionists"
+      },
+      {
+        "type": "text",
+        "id": "Top Nutritionists1"
+      },
+      {
+        "type": "group",
+        "id": "Frame 128"
+      },
+      {
+        "type": "image",
+        "id": "image 18"
+      },
+      {
+        "type": "vector",
+        "id": "Vector11"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 44"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 11"
+      },
+      {
+        "type": "group",
+        "id": "Heart--Streamline-Flex.svg"
+      },
+      {
+        "type": "text",
+        "id": "4.8"
+      },
+      {
+        "type": "group",
+        "id": "kid_star"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 45"
+      },
+      {
+        "type": "group",
+        "id": "Group 14"
+      },
+      {
+        "type": "group",
+        "id": "Group 15"
+      },
+      {
+        "type": "group",
+        "id": "Group 16"
+      },
+      {
+        "type": "group",
+        "id": "Group 17"
+      },
+      {
+        "type": "group",
+        "id": "Group 18"
+      },
+      {
+        "type": "group",
+        "id": "Group 19"
+      },
+      {
+        "type": "group",
+        "id": "Group 20"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 46"
+      },
+      {
+        "type": "text",
+        "id": "BOOK Slot"
+      },
+      {
+        "type": "text",
+        "id": "Available slot 7"
+      },
+      {
+        "type": "text",
+        "id": "Nutritionist1"
+      },
+      {
+        "type": "text",
+        "id": "Dr. Sara Smith"
+      },
+      {
+        "type": "group",
+        "id": "heart--reward-social-rating-media-heart-it-like-favorite-love"
+      },
+      {
+        "type": "vector",
+        "id": "Vector12"
+      },
+      {
+        "type": "vector",
+        "id": "Bounding box"
+      },
+      {
+        "type": "vector",
+        "id": "kid_star1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 47"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 12"
+      },
+      {
+        "type": "text",
+        "id": "12"
+      },
+      {
+        "type": "text",
+        "id": "Mon"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 48"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 13"
+      },
+      {
+        "type": "text",
+        "id": "13"
+      },
+      {
+        "type": "text",
+        "id": "Tue"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 49"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 14"
+      },
+      {
+        "type": "text",
+        "id": "14"
+      },
+      {
+        "type": "text",
+        "id": "Wed"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 50"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 15"
+      },
+      {
+        "type": "text",
+        "id": "15"
+      },
+      {
+        "type": "text",
+        "id": "Thu"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 51"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 16"
+      },
+      {
+        "type": "text",
+        "id": "16"
+      },
+      {
+        "type": "text",
+        "id": "Fri"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 52"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 17"
+      },
+      {
+        "type": "text",
+        "id": "17"
+      },
+      {
+        "type": "text",
+        "id": "Sat"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 53"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 18"
+      },
+      {
+        "type": "text",
+        "id": "18"
+      },
+      {
+        "type": "text",
+        "id": "Sun"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 17"
+      },
+      {
+        "type": "image",
+        "id": "image1"
+      },
+      {
+        "type": "text",
+        "id": "Dr. abc sharma1"
+      },
+      {
+        "type": "text",
+        "id": "Nutritionist2"
+      },
+      {
+        "type": "group",
+        "id": "Frame 15"
+      },
+      {
+        "type": "group",
+        "id": "Frame 16"
+      },
+      {
+        "type": "group",
+        "id": "Frame 7"
+      },
+      {
+        "type": "text",
+        "id": "Book1"
+      },
+      {
+        "type": "group",
+        "id": "Frame 10"
+      },
+      {
+        "type": "group",
+        "id": "Frame 11"
+      },
+      {
+        "type": "group",
+        "id": "Frame3"
+      },
+      {
+        "type": "text",
+        "id": "2 slots left"
+      },
+      {
+        "type": "vector",
+        "id": "Vector13"
+      },
+      {
+        "type": "group",
+        "id": "Frame4"
+      },
+      {
+        "type": "text",
+        "id": "10+ years experience"
+      },
+      {
+        "type": "vector",
+        "id": "Vector14"
+      }
+    ],
+    "modes": {
+      "iPhone 16 Plus - 21": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": 40.0,
+            "is-structured": false,
+            "children": [
+              "Group 22",
+              "status bar",
+              "header",
+              "Waiting-Appointments-Calendar--Streamline-Core.svg",
+              "navbar",
+              "Group 21",
+              "Group 23"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "Group 22",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 24.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 669.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 398.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 165.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 16",
+              "image",
+              "Dr. abc sharma",
+              "Nutritionist",
+              "Frame 12",
+              "Frame 14"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "status bar",
+            "padding": {
+              "left": 20.0,
+              "right": 20.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 49.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "cross-axis-align": "start",
+            "children": [
+              "8:30",
+              "status right"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            },
+            "clip-content": false
+          },
+          {
+            "id": "header",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 49.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 97.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Frame 13",
+              "Group 13",
+              "Ellipse 10",
+              "Group 12",
+              "Rectangle 42"
+            ],
+            "background-color": {
+              "alpha": 0.047058823529411764,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            }
+          },
+          {
+            "id": "Waiting-Appointments-Calendar--Streamline-Core.svg",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 354.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 723.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 23.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 22.0
+              }
+            },
+            "is-structured": false
+          },
+          {
+            "id": "navbar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 845.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 87.0
+              }
+            },
+            "stroke-width": 1.0,
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.6862745098039216
+            },
+            "is-structured": false,
+            "children": [
+              "nav item",
+              "nav item1",
+              "nav item2",
+              "nav item3",
+              "Rectangle 43",
+              "Frame2"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Group 21",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 151.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 376.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "top  part "
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 23",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 24.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 495.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 398.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 165.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 17",
+              "image1",
+              "Dr. abc sharma1",
+              "Nutritionist2",
+              "Frame 15",
+              "Frame 16"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 16",
+            "border-radius": 16.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": -8.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 382.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 165.0
+              }
+            },
+            "vector-content": "rectangle_16.svg"
+          },
+          {
+            "id": "image",
+            "border-radius": 12.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 15.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 15.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 106.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 106.0
+              }
+            },
+            "image-content": "image.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Dr. abc sharma",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 147.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 21.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 219.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 27.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.30980392156862746
+            },
+            "text-content": "Dr. abc\nsharma",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "line-height": 1.0714286041259766,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Nutritionist",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 147.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 56.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 210.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.30196078431372547
+            },
+            "text-content": "Nutritionist",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.6,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Frame 12",
+            "padding": {
+              "left": 3.0,
+              "top": 1.0,
+              "right": 3.0,
+              "bottom": 1.0
+            },
+            "border-radius": 5.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 147.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 124.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 45.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Frame 6"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.8588235294117647,
+              "hue": 43.0327868852459,
+              "saturation": 0.9568627450980393,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Frame 14",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 147.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 89.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Frame 8",
+              "Frame 9"
+            ],
+            "item-spacing": 15.0,
+            "clip-content": false
+          },
+          {
+            "id": "Frame 6",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Book"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Book",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 36.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 17.0
+              }
+            },
+            "font-weight": 300.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Book",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 10.0,
+            "line-height": 1.7,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Frame 8",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Frame",
+              "23 slots left"
+            ],
+            "item-spacing": 4.0,
+            "clip-content": false
+          },
+          {
+            "id": "Frame 9",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Frame1",
+              "15+ years experience"
+            ],
+            "item-spacing": 2.0,
+            "clip-content": false
+          },
+          {
+            "id": "Frame",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector"
+            ]
+          },
+          {
+            "id": "23 slots left",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 69.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 12.0
+              }
+            },
+            "font-weight": 300.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.30980392156862746
+            },
+            "text-content": " 23 slots  left",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 11.0,
+            "line-height": 1.545454559326172,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": 1.45849609375,
+              "top": 1.4583740234375,
+              "right": 1.4581708908081055,
+              "bottom": 1.4582929611206055
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Frame1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 22.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 22.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector1"
+            ]
+          },
+          {
+            "id": "15+ years experience",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 125.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 12.0
+              }
+            },
+            "font-weight": 300.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.30980392156862746
+            },
+            "text-content": "15+ years experience",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.7,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector1",
+            "margin": 4.125,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "8:30",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 39.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "8:30",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "bottom",
+            "text-size": 15.0,
+            "line-height": 0.8666666412353515,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "status right",
+            "padding": {
+              "left": 26.0,
+              "top": 10.0,
+              "right": 10.0,
+              "bottom": 2.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 78.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "wifi icon",
+              "cellular",
+              "battery"
+            ],
+            "item-spacing": 2.0,
+            "clip-content": false
+          },
+          {
+            "id": "wifi icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector2"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "cellular",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector3"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "battery",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector4"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Vector2",
+            "margin": {
+              "top": 6.0,
+              "right": 1.387502670288086
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Vector3",
+            "margin": {
+              "left": 3.0,
+              "top": 6.0,
+              "right": 2.9999990463256836
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "id": "Vector4",
+            "margin": {
+              "left": 6.0,
+              "top": 6.0,
+              "right": 5.999999523162842
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector4.svg"
+          },
+          {
+            "id": "Frame 13",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 55.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 48.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 110.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 28.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Good Morning,",
+              "Bharti!"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 13",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 341.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 48.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 64.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 31.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Ellipse 7",
+              "Ellipse 9",
+              "searchicon",
+              "notification icon"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Ellipse 10",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 399.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 50.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 5.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 5.0
+              }
+            },
+            "vector-content": "ellipse_10.svg"
+          },
+          {
+            "id": "Group 12",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 22.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 48.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 28.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 28.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "🦆 icon \"profile major\""
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 42",
+            "border-radius": 148.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 180.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 763.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 79.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 79.0
+              }
+            },
+            "vector-content": "rectangle_42.svg"
+          },
+          {
+            "id": "Good Morning,",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 110.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.30196078431372547
+            },
+            "text-content": "Good Morning,",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "line-height": 1.1428571319580079,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Bharti!",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 13.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 110.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Bharti!",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Ellipse 7",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "vector-content": "ellipse_7.svg"
+          },
+          {
+            "id": "Ellipse 9",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 34.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 1.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "vector-content": "ellipse_9.svg"
+          },
+          {
+            "id": "searchicon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 5.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 6.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector5"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "notification icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 40.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 7.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector6"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Vector5",
+            "margin": {
+              "left": 3.47802734375,
+              "top": 2.608642578125,
+              "right": 2.457098960876465,
+              "bottom": 3.3226089477539062
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector5.svg"
+          },
+          {
+            "id": "Vector6",
+            "margin": {
+              "left": 3.13037109375,
+              "top": 1.565185546875,
+              "right": 3.130497932434082,
+              "bottom": 1.4147930145263672
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector6.svg"
+          },
+          {
+            "id": "🦆 icon \"profile major\"",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 28.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 28.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector7"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Vector7",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector7.svg"
+          },
+          {
+            "id": "nav item",
+            "padding": {
+              "top": 7.0,
+              "bottom": 7.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 10.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 15.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 75.5999984741211
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "feed icon",
+              "Home"
+            ],
+            "item-spacing": 4.0,
+            "clip-content": false
+          },
+          {
+            "id": "nav item1",
+            "padding": {
+              "top": 7.0,
+              "bottom": 7.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 93.60009765625
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 15.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 74.46666717529297
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 57.0
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "event icon",
+              "Home1"
+            ],
+            "item-spacing": 4.0,
+            "clip-content": false
+          },
+          {
+            "id": "nav item2",
+            "padding": {
+              "top": 7.0,
+              "bottom": 7.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 263.06640625
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 15.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 74.46665954589844
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 56.0
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "waiting-appointments-calendar",
+              "Appointment"
+            ],
+            "item-spacing": 4.0,
+            "clip-content": false
+          },
+          {
+            "id": "nav item3",
+            "padding": {
+              "top": 7.0,
+              "bottom": 7.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 345.533203125
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 16.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 74.46665954589844
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "Loader-Progress-Bar-Count-25--Streamline-Plump.png",
+              "Progress"
+            ],
+            "item-spacing": 4.0,
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 43",
+            "border-radius": 148.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 176.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -24.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 79.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 79.0
+              }
+            },
+            "vector-content": "rectangle_43.svg"
+          },
+          {
+            "id": "Frame2",
+            "margin": {
+              "left": 190.0,
+              "right": 191.0,
+              "bottom": 47.0
+            },
+            "is-structured": false,
+            "children": [
+              "Vector10"
+            ]
+          },
+          {
+            "id": "feed icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 23.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 23.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector8"
+            ]
+          },
+          {
+            "id": "Home",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 213.33333333333331,
+              "saturation": 0.08653846153846151,
+              "value": 0.40784313725490196
+            },
+            "text-content": "Articles",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 11.0,
+            "line-height": 1.454545440673828,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector8",
+            "margin": {
+              "left": 3.0,
+              "top": 4.0,
+              "right": 3.708333969116211,
+              "bottom": 2.708333969116211
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector8.svg"
+          },
+          {
+            "id": "event icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 23.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 23.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector9"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Home1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 213.33333333333331,
+              "saturation": 0.08653846153846151,
+              "value": 0.40784313725490196
+            },
+            "text-content": "Community",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 11.0,
+            "line-height": 1.454545440673828,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector9",
+            "margin": {
+              "left": 3.0,
+              "top": 1.0,
+              "right": 3.0,
+              "bottom": 2.8847503662109375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector9.svg"
+          },
+          {
+            "id": "waiting-appointments-calendar",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 23.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 22.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Subtract",
+              "rectangle 481",
+              "union"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Appointment",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 213.33333333333331,
+              "saturation": 0.08653846153846151,
+              "value": 0.40784313725490196
+            },
+            "text-content": "Appointment",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 11.0,
+            "line-height": 1.454545440673828,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Subtract",
+            "margin": {
+              "bottom": 14.928571224212646
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "subtract.svg"
+          },
+          {
+            "id": "rectangle 481",
+            "margin": {
+              "top": 7.0714111328125,
+              "bottom": 0.0000171661376953125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_481.svg"
+          },
+          {
+            "id": "union",
+            "margin": {
+              "left": 6.60107421875,
+              "top": 9.8497314453125,
+              "right": 6.600925445556641,
+              "bottom": 2.778265953063965
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union.svg"
+          },
+          {
+            "id": "Loader-Progress-Bar-Count-25--Streamline-Plump.png",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Loader-Progress-Bar-Count-25--Streamline-Plump.png1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Progress",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 213.33333333333331,
+              "saturation": 0.08653846153846151,
+              "value": 0.40784313725490196
+            },
+            "text-content": "Progress",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 11.0,
+            "line-height": 1.454545440673828,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Loader-Progress-Bar-Count-25--Streamline-Plump.png1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              }
+            },
+            "image-content": "loader_progress_bar_count_25_streamline_plump_png.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Vector10",
+            "margin": {
+              "left": 6.0,
+              "top": 15.0,
+              "right": 6.0,
+              "bottom": 18.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector10.svg"
+          },
+          {
+            "id": "top  part ",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 376.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Top Nutritionists",
+              "Top Nutritionists1",
+              "Frame 128",
+              "image 18"
+            ]
+          },
+          {
+            "id": "Top Nutritionists",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 15.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 11.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 235.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.30196078431372547
+            },
+            "text-content": "Top Nutritionists",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.0666666412353516,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Top Nutritionists1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 15.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 11.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 235.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.30196078431372547
+            },
+            "text-content": "Top Nutritionists",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.0666666412353516,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Frame 128",
+            "border-radius": 24.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 24.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 41.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 382.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 295.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector11",
+              "Rectangle 44",
+              "Ellipse 11",
+              "Heart--Streamline-Flex.svg",
+              "4.8",
+              "kid_star",
+              "Rectangle 45",
+              "Group 14",
+              "Group 15",
+              "Group 16",
+              "Group 17",
+              "Group 18",
+              "Group 19",
+              "Group 20",
+              "Rectangle 46",
+              "BOOK Slot",
+              "Available slot 7",
+              "Nutritionist1",
+              "Dr. Sara Smith"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            }
+          },
+          {
+            "id": "image 18",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 110.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 41.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 279.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 186.0
+              }
+            },
+            "image-content": "image_18.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Vector11",
+            "margin": {
+              "left": 37.0,
+              "top": 27.0,
+              "right": 327.0,
+              "bottom": 250.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -0.5
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -0.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector11.svg"
+          },
+          {
+            "id": "Rectangle 44",
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 28.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 18.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 73.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              }
+            },
+            "vector-content": "rectangle_44.svg"
+          },
+          {
+            "id": "Ellipse 11",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 331.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 25.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "vector-content": "ellipse_11.svg"
+          },
+          {
+            "id": "Heart--Streamline-Flex.svg",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 339.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 33.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "heart--reward-social-rating-media-heart-it-like-favorite-love"
+            ]
+          },
+          {
+            "id": "4.8",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 65.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 30.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 29.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "4.8",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "kid_star",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 34.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 25.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Bounding box",
+              "kid_star1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 45",
+            "border-radius": 17.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 10.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 165.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 361.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 123.0
+              }
+            },
+            "vector-content": "rectangle_45.svg"
+          },
+          {
+            "id": "Group 14",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 55.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 220.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.999908447265625
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.85256576538086
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 47",
+              "Ellipse 12",
+              "12",
+              "Mon"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 15",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 95.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 220.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 51.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.85256576538086
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 48",
+              "Ellipse 13",
+              "13",
+              "Tue"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 137.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 220.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.999908447265625
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.85256576538086
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 49",
+              "Ellipse 14",
+              "14",
+              "Wed"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 17",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 177.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 220.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 51.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.85256576538086
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 50",
+              "Ellipse 15",
+              "15",
+              "Thu"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 18",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 219.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 220.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.85256576538086
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 51",
+              "Ellipse 16",
+              "16",
+              "Fri"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 19",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 264.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 220.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 52.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.85256576538086
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 52",
+              "Ellipse 17",
+              "17",
+              "Sat"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 20",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 307.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 220.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.31379318237305
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.85256576538086
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 53",
+              "Ellipse 18",
+              "18",
+              "Sun"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 46",
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 264.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 172.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 89.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              }
+            },
+            "vector-content": "rectangle_46.svg"
+          },
+          {
+            "id": "BOOK Slot",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 276.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 183.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 77.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            },
+            "text-content": "BOOK Slot ",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Available slot 7",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 32.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 183.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 113.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Available slot 7",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Nutritionist1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 32.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 65.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Nutritionist",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.6,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Dr. Sara Smith",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 32.056360642020536
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 90.2014422660244
+              }
+            },
+            "relative-transform": [
+              [
+                0.999992311000824,
+                0.003914245869964361,
+                0.0
+              ],
+              [
+                -0.003914245869964361,
+                0.999992311000824,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 102.98429870605469
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 29.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Dr. Sara\nSmith",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 18.0,
+            "line-height": 0.8888888549804688,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "heart--reward-social-rating-media-heart-it-like-favorite-love",
+            "margin": {
+              "left": 0.75,
+              "top": 1.3587646484375,
+              "right": 0.75,
+              "bottom": 1.3587980270385742
+            },
+            "is-structured": false,
+            "children": [
+              "Vector12"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Vector12",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -0.5
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -0.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector12.svg"
+          },
+          {
+            "id": "Bounding box",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "id": "kid_star1",
+            "margin": {
+              "left": 2.0,
+              "top": 2.0,
+              "right": 1.9750003814697266,
+              "bottom": 3.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "kid_star.svg"
+          },
+          {
+            "id": "Rectangle 47",
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -11.49284474583807
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 13.31605254149963
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.07859802246094
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              }
+            },
+            "vector-content": "rectangle_47.svg"
+          },
+          {
+            "id": "Ellipse 12",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 28.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "vector-content": "ellipse_12.svg"
+          },
+          {
+            "id": "12",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 13.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 36.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "12",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Mon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 5.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 7.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 44.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Mon",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 48",
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -11.49284474583807
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 13.31605254149963
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.07859802246094
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              }
+            },
+            "vector-content": "rectangle_48.svg"
+          },
+          {
+            "id": "Ellipse 13",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 28.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "vector-content": "ellipse_13.svg"
+          },
+          {
+            "id": "13",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 13.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 36.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "13",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Tue",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 7.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 7.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 44.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Tue",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 49",
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -11.49284474583807
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 13.31605254149963
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.07859802246094
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              }
+            },
+            "vector-content": "rectangle_49.svg"
+          },
+          {
+            "id": "Ellipse 14",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 28.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "vector-content": "ellipse_14.svg"
+          },
+          {
+            "id": "14",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 13.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 36.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "14",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Wed",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 5.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 7.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 44.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Wed",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 50",
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -11.49284474583807
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 13.31605254149963
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.07859802246094
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              }
+            },
+            "vector-content": "rectangle_50.svg"
+          },
+          {
+            "id": "Ellipse 15",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 28.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "vector-content": "ellipse_15.svg"
+          },
+          {
+            "id": "15",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 13.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 36.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "15",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Thu",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 7.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 7.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 44.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Thu",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 51",
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -11.49284474583807
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 13.31605254149963
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.07859802246094
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              }
+            },
+            "vector-content": "rectangle_51.svg"
+          },
+          {
+            "id": "Ellipse 16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 28.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "vector-content": "ellipse_16.svg"
+          },
+          {
+            "id": "16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 13.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 36.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Fri",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 10.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 7.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 44.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Fri",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 52",
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -11.49284474583807
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 13.31605254149963
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.07859802246094
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              }
+            },
+            "vector-content": "rectangle_52.svg"
+          },
+          {
+            "id": "Ellipse 17",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 28.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "vector-content": "ellipse_17.svg"
+          },
+          {
+            "id": "17",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 13.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 36.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "17",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Sat",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 8.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 7.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 44.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Sat",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 53",
+            "border-radius": 25.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.38955767420587506
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.38976965880920034
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 62.07859802246094
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              }
+            },
+            "vector-content": "rectangle_53.svg"
+          },
+          {
+            "id": "Ellipse 18",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.99169921875
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 28.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              }
+            },
+            "vector-content": "ellipse_18.svg"
+          },
+          {
+            "id": "18",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 12.99169921875
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 36.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "18",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Sun",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": -3.322093963623047
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 7.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 29.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 165.42056074766356,
+              "saturation": 0.656441717791411,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Sun",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.3333332824707032,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 17",
+            "border-radius": 16.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": -8.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 382.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 165.0
+              }
+            },
+            "vector-content": "rectangle_17.svg"
+          },
+          {
+            "id": "image1",
+            "border-radius": 12.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 15.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 15.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 106.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 106.0
+              }
+            },
+            "image-content": "image.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Dr. abc sharma1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 147.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 21.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 219.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 27.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.30980392156862746
+            },
+            "text-content": "Dr. abc\nsharma",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "line-height": 1.0714286041259766,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Nutritionist2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 147.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 56.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 210.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.30196078431372547
+            },
+            "text-content": "Nutritionist",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.6,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Frame 15",
+            "padding": {
+              "left": 3.0,
+              "top": 1.0,
+              "right": 3.0,
+              "bottom": 1.0
+            },
+            "border-radius": 5.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 147.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 124.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 45.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Frame 7"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.8588235294117647,
+              "hue": 43.0327868852459,
+              "saturation": 0.9568627450980393,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Frame 16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 147.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 89.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Frame 10",
+              "Frame 11"
+            ],
+            "item-spacing": 15.0,
+            "clip-content": false
+          },
+          {
+            "id": "Frame 7",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Book1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Book1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 36.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 17.0
+              }
+            },
+            "font-weight": 300.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Book",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 10.0,
+            "line-height": 1.7,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Frame 10",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Frame3",
+              "2 slots left"
+            ],
+            "item-spacing": 4.0,
+            "clip-content": false
+          },
+          {
+            "id": "Frame 11",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Frame4",
+              "10+ years experience"
+            ],
+            "item-spacing": 2.0,
+            "clip-content": false
+          },
+          {
+            "id": "Frame3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector13"
+            ]
+          },
+          {
+            "id": "2 slots left",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 69.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 12.0
+              }
+            },
+            "font-weight": 300.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.30980392156862746
+            },
+            "text-content": " 2 slots  left",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 11.0,
+            "line-height": 1.545454559326172,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector13",
+            "margin": {
+              "left": 1.45849609375,
+              "top": 1.4583740234375,
+              "right": 1.4581708908081055,
+              "bottom": 1.4582929611206055
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector13.svg"
+          },
+          {
+            "id": "Frame4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 22.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 22.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector14"
+            ]
+          },
+          {
+            "id": "10+ years experience",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 125.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 12.0
+              }
+            },
+            "font-weight": 300.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.30980392156862746
+            },
+            "text-content": "10+ years experience",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.7,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector14",
+            "margin": 4.125,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector14.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "iPhone 16 Plus - 21",
+      "size": {
+        "width": 430.0,
+        "height": 932.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
