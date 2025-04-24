@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tap Tap App</string>
+    <string name="Description1">Press START Button to Start the game.</string>
+    <string name="Description2">Tap on the Button as shown.</string>
+    <string name="Start">START</string>
+    <string name="Stop">STOP</string>
+</resources>

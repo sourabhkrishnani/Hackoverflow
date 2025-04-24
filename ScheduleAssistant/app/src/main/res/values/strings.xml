@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Schedule Assistant</string>
+
+    <string name="Start_Screen_BtnTxt">Let\'s start</string>
+</resources>

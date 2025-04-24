@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Document</string>
+    <string name="select_images">Select Images</string>
+    <string name="convert_to_pdf">Convert to PDF</string>
+    <string name="select_pdf">Select PDF</string>
+    <string name="convert_to_images">Convert to Images</string>
+    <string name="resize_image">Resize Image</string>
+    <string name="reduce_pdf_size">Reduce PDF Size</string>
+    <string name="pdf_to_image">PDF to Image</string>
+    <string name="target_size_kb">Target Size (KB)</string>
+    <string name="converting">Converting…</string>
+    <string name="resizing">Resizing…</string>
+    <string name="reducing">Reducing…</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+</resources>
