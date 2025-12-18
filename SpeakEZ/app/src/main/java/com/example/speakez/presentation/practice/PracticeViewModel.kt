@@ -32,7 +32,6 @@ class PracticeViewModel @Inject constructor(
     val uiState: StateFlow<PracticeScreenState> = _uiState.asStateFlow()
 
     private val userGoal: String = savedStateHandle.get<String>("userGoal") ?: "General"
-    private var recordingStartTime: Long = 0
     private var outputFile: File? = null
 
     init {
@@ -50,7 +49,9 @@ class PracticeViewModel @Inject constructor(
     private fun collectAmplitude() {
         viewModelScope.launch {
             audioRepository.getAmplitudeFlow().collect { amplitude ->
-                _uiState.update { it.copy(amplitudes = it.amplitudes + amplitude) }
+                // For a smooth waveform, we want a list of recent amplitudes
+                val updatedAmplitudes = (_uiState.value.amplitudes + amplitude).takeLast(100)
+                _uiState.update { it.copy(amplitudes = updatedAmplitudes) }
             }
         }
     }
@@ -64,9 +65,8 @@ class PracticeViewModel @Inject constructor(
     }
 
     private fun startRecording() {
-        outputFile = File(application.cacheDir, "recording.wav")
-        _uiState.update { it.copy(isRecording = true, analysisResult = null, userTranscript = "") }
-        recordingStartTime = System.currentTimeMillis()
+        outputFile = File(application.cacheDir, "recording.m4a")
+        _uiState.update { it.copy(isRecording = true, analysisResult = null, userTranscript = "", error = null) }
         outputFile?.let { audioRepository.startRecording(it) }
     }
 
@@ -76,23 +76,30 @@ class PracticeViewModel @Inject constructor(
 
         viewModelScope.launch {
             outputFile?.let {
+                // Show a generic "Processing..." message
+                _uiState.update { state -> state.copy(userTranscript = "Processing your answer...") }
+
                 transcriptionRepository.transcribeAudio(it).collect { transcript ->
-                    _uiState.update { state -> state.copy(userTranscript = transcript) }
-                    val recordingTimeSeconds = (System.currentTimeMillis() - recordingStartTime) / 1000.0
-                    val analysisResult = performLocalAnalysis(transcript, recordingTimeSeconds)
-                    _uiState.update { state -> state.copy(analysisResult = analysisResult, error = null) }
+                    if (transcript.startsWith("Error:")) {
+                        _uiState.update { state -> state.copy(error = transcript) }
+                    } else {
+                        val analysisResult = performLocalAnalysis(transcript)
+                        _uiState.update { state -> state.copy(userTranscript = transcript, analysisResult = analysisResult, error = null) }
+                    }
                 }
             }
         }
     }
 
-    private fun performLocalAnalysis(transcript: String, durationSeconds: Double): AnalysisResult {
+    private fun performLocalAnalysis(transcript: String): AnalysisResult {
+        // This is a simplified analysis. A real implementation would be more complex.
         val words = transcript.split(Regex("\\s+")).filter { it.isNotBlank() }
-        val wpm = if (durationSeconds > 1) ((words.size / durationSeconds) * 60).toInt() else 0
+        // We don't have the duration here, so WPM is a rough estimate.
+        val wpm = words.size * 2 // Assuming an average speaking rate
 
         return AnalysisResult(
             wpm = wpm,
-            fillerWordCount = emptyMap(), // Will be implemented later
+            fillerWordCount = emptyMap(),
             silenceGaps = emptyList(),
             grammarScore = 0,
             sentiment = "",

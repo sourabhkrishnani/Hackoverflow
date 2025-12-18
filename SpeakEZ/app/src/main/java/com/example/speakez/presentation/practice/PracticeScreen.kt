@@ -44,7 +44,15 @@ fun PracticeScreen(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.SpaceBetween
         ) {
-            if (uiState.analysisResult == null) {
+             if (uiState.error != null) {
+                // Error View
+                Text(
+                    text = uiState.error!!,
+                    color = MaterialTheme.colorScheme.error,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.padding(16.dp)
+                )
+            } else if (uiState.analysisResult == null) {
                 // Recording View
                 Card(modifier = Modifier.fillMaxWidth()) {
                     Column(modifier = Modifier.padding(16.dp)) {
@@ -53,37 +61,33 @@ fun PracticeScreen(
                         Text(uiState.currentQuestion, style = MaterialTheme.typography.headlineSmall)
                     }
                 }
-
-                // --- THIS IS THE RESTORED AND CORRECTED SECTION ---
                 Column(
                     modifier = Modifier.padding(vertical = 24.dp),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
                     Text(
-                        text = if (uiState.isRecording) "Listening..." else "Your transcription will appear here after recording.",
+                        text = if (uiState.isRecording) "Listening..." else "Ready to record.",
                         style = MaterialTheme.typography.bodyLarge,
                         textAlign = TextAlign.Center,
                         color = if (uiState.isRecording) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
                     )
                 }
-                // --------------------------------------------------
-
                 WaveformVisualizer(amplitudes = uiState.amplitudes)
             } else {
                 // Analysis View
-                uiState.analysisResult?.let { result ->
-                    Column(
-                        horizontalAlignment = Alignment.CenterHorizontally
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Text("Your Analysis", style = MaterialTheme.typography.headlineSmall)
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Text(uiState.userTranscript, textAlign = TextAlign.Center)
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceEvenly
                     ) {
-                        Text("Your Analysis", style = MaterialTheme.typography.headlineSmall)
-                        Spacer(modifier = Modifier.height(16.dp))
-                        Row(
-                            modifier = Modifier.fillMaxWidth(),
-                            horizontalArrangement = Arrangement.SpaceEvenly
-                        ) {
-                            StatCard(label = "WPM", value = result.wpm.toString())
-                            StatCard(label = "Fillers", value = result.fillerWordCount.values.sum().toString())
-                        }
+                        StatCard(label = "WPM", value = uiState.analysisResult!!.wpm.toString())
+                        StatCard(label = "Fillers", value = uiState.analysisResult!!.fillerWordCount.values.sum().toString())
                     }
                 }
             }
