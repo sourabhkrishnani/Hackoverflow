@@ -1,13 +1,11 @@
 package com.example.speakez.data.repository
 
-import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.speech.RecognitionListener
 import android.speech.RecognizerIntent
 import android.speech.SpeechRecognizer
 import com.example.speakez.domain.repository.AudioRepository
-import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -15,10 +13,9 @@ import java.util.Locale
 import javax.inject.Inject
 
 class AudioRepositoryImpl @Inject constructor(
-    @ApplicationContext private val context: Context
+    private val speechRecognizer: SpeechRecognizer
 ) : AudioRepository {
 
-    private val speechRecognizer: SpeechRecognizer = SpeechRecognizer.createSpeechRecognizer(context)
     private val _transcript = MutableStateFlow("")
     private val _amplitude = MutableStateFlow(0f)
 

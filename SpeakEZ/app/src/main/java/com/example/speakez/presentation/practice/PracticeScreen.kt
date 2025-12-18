@@ -16,6 +16,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -36,6 +37,11 @@ fun PracticeScreen(
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     val permissionState = rememberPermissionState(Manifest.permission.RECORD_AUDIO)
+
+    DisposableEffect(Unit) {
+        permissionState.launchPermissionRequest()
+        onDispose { }
+    }
 
     if (permissionState.status.isGranted) {
         Scaffold(
@@ -97,7 +103,7 @@ fun PracticeScreen(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            Text("Microphone permission is required.")
+            Text("Microphone permission is required to use this feature.")
             Spacer(modifier = Modifier.height(16.dp))
             StandardButton(
                 text = "Grant Permission",
