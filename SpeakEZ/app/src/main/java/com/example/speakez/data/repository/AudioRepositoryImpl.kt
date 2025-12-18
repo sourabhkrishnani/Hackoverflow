@@ -1,80 +1,72 @@
 package com.example.speakez.data.repository
 
-import android.content.Intent
-import android.os.Bundle
-import android.speech.RecognitionListener
-import android.speech.RecognizerIntent
-import android.speech.SpeechRecognizer
+import android.Manifest
+import android.content.Context
+import android.content.pm.PackageManager
+import android.media.AudioFormat
+import android.media.AudioRecord
+import android.media.MediaRecorder
+import androidx.core.content.ContextCompat
 import com.example.speakez.domain.repository.AudioRepository
+import dagger.hilt.android.qualifiers.ApplicationContext
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import java.util.Locale
+import kotlinx.coroutines.withContext
+import java.io.File
 import javax.inject.Inject
 
 class AudioRepositoryImpl @Inject constructor(
-    private val speechRecognizer: SpeechRecognizer
+    @ApplicationContext private val context: Context
 ) : AudioRepository {
 
-    private val _transcript = MutableStateFlow("")
-    private val _amplitude = MutableStateFlow(0f)
+    private var audioRecord: AudioRecord? = null
+    private var isRecording = false
+    private val amplitudeFlow = MutableStateFlow(0f)
 
-    init {
-        setupSpeechRecognizer()
-    }
+    private val bufferSize = AudioRecord.getMinBufferSize(
+        44100,
+        AudioFormat.CHANNEL_IN_MONO,
+        AudioFormat.ENCODING_PCM_16BIT
+    )
 
-    private fun setupSpeechRecognizer() {
-        speechRecognizer.setRecognitionListener(object : RecognitionListener {
-            override fun onResults(results: Bundle?) {
-                results?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)?.get(0)?.let {
-                    _transcript.value = it
-                }
-            }
-
-            override fun onPartialResults(partialResults: Bundle?) {
-                partialResults?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)?.get(0)?.let {
-                    _transcript.value = it
-                }
-            }
-
-            override fun onReadyForSpeech(params: Bundle?) {
-                _amplitude.value = 0f
-                _transcript.value = ""
-            }
-
-            override fun onBeginningOfSpeech() {}
-
-            override fun onRmsChanged(rmsdB: Float) {
-                // Normalize the amplitude to a value between 0 and 1
-                val normalizedAmplitude = (rmsdB - 1) / 9
-                _amplitude.value = normalizedAmplitude.coerceIn(0f, 1f)
-            }
-
-            override fun onBufferReceived(buffer: ByteArray?) {}
-            override fun onEndOfSpeech() {}
-            override fun onError(error: Int) {}
-            override fun onEvent(eventType: Int, params: Bundle?) {}
-        })
-    }
-
-    override fun startRecording() {
-        val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
-            putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
-            putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault())
-            putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true)
+    override fun startRecording(outputFile: File) {
+        if (ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
+            return // Should be handled by the UI
         }
-        speechRecognizer.startListening(intent)
+
+        audioRecord = AudioRecord(
+            MediaRecorder.AudioSource.MIC,
+            44100,
+            AudioFormat.CHANNEL_IN_MONO,
+            AudioFormat.ENCODING_PCM_16BIT,
+            bufferSize
+        ).apply {
+            startRecording()
+            isRecording = true
+        }
+
+        Thread {
+            val buffer = ShortArray(bufferSize)
+            while (isRecording) {
+                val readSize = audioRecord?.read(buffer, 0, buffer.size) ?: 0
+                if (readSize > 0) {
+                    val maxAmplitude = buffer.maxOrNull()?.toFloat() ?: 0f
+                    amplitudeFlow.value = maxAmplitude / Short.MAX_VALUE
+                }
+            }
+        }.start()
     }
 
     override fun stopRecording() {
-        speechRecognizer.stopListening()
+        isRecording = false
+        audioRecord?.stop()
+        audioRecord?.release()
+        audioRecord = null
     }
 
-    override fun getAudioAmplitude(): Flow<Float> {
-        return _amplitude.asStateFlow()
-    }
-
-    override fun getTranscript(): Flow<String> {
-        return _transcript.asStateFlow()
+    override fun getAmplitudeFlow(): Flow<Float> {
+        return amplitudeFlow.asStateFlow()
     }
 }

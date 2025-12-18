@@ -83,9 +83,6 @@ dependencies {
     // ML Kit
     implementation(libs.mlkit.face.detection)
 
-    // Accompanist
-    implementation(libs.accompanist.permissions)
-
     // ViewModel
     implementation(libs.androidx.lifecycle.viewmodel.compose)
 

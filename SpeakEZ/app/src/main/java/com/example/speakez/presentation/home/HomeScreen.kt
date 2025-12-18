@@ -1,5 +1,8 @@
 package com.example.speakez.presentation.home
 
+import android.Manifest
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -22,6 +25,15 @@ import androidx.compose.ui.unit.dp
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(userGoal: String, onStartSession: () -> Unit, onViewHistory: () -> Unit) {
+    val permissionLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.RequestPermission(),
+        onResult = { isGranted ->
+            if (isGranted) {
+                onStartSession()
+            }
+        }
+    )
+
     Scaffold(
         topBar = { CenterAlignedTopAppBar(title = { Text("Dashboard") }) }
     ) { padding ->
@@ -36,7 +48,7 @@ fun HomeScreen(userGoal: String, onStartSession: () -> Unit, onViewHistory: () -
             Text("Goal: $userGoal", style = MaterialTheme.typography.titleMedium)
             Spacer(modifier = Modifier.height(32.dp))
             Button(
-                onClick = onStartSession,
+                onClick = { permissionLauncher.launch(Manifest.permission.RECORD_AUDIO) },
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(56.dp)
